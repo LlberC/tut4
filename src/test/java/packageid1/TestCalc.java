@@ -11,10 +11,9 @@ public class TestCalc {
     Assertions.assertEquals(3,a.add(1,2));
 }
 
-//    @Test
-//    public void test2(){
-//    Calc t = new Calc();
-//    int res = t.subtract(1,2);
-//    Assertions.assertEquals(-1,res);
-//}
+    @Test
+    public void test2(){
+    Calc a = new Calc();
+    Assertions.assertEquals(-1,a.subtract(2,3));
+}
 }
